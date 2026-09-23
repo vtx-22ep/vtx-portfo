@@ -1,11 +1,12 @@
 import './Navbar.css'
-
+// import vtxBanner from '../../assets/images/vtx/vtx-logo_banner.png'
 function Navbar() {
     return (
         <nav>
             <div className="nav-bar">
-                <div className="logo">
+                <div className="nav-logo">
                     <h1>VTX-22EP</h1>
+                    {/* <img src={vtxBanner} alt="" /> */}
                 </div>
                 <div className="nav-links">
                     <ul>
