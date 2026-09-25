@@ -3,6 +3,8 @@ nav{
     justify-content: center;
     margin-top: 25px;
     gap: 10px;
+    top: 25px;
+    position: sticky;
 }
 
 .nav-bar{
