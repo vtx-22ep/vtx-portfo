@@ -17,7 +17,7 @@ nav{
 
 .nav-logo{
     width: 200px;
-    background-color: rgb(90, 0, 90);
+    background-color: var(--accent);
     border-radius: 30px;
 }
 

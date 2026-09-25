@@ -7,12 +7,12 @@
 }
 
 :root{
-  --background-color: #0B0F14;
-  --surface: #111820;
-  --primary-text-dark: #F5F7FA;
-  --secondary-text-dark: #A7B0BA;
-  --accent: #5A005A;
-  --border: #24303C;
+  --background-color: #051F20;
+  --surface: #0B2B26;
+  --primary-text-dark: #DAF1DE;
+  --secondary-text-dark: #F5F7FA;
+  --accent: #163832;
+  --border: #235347;
   --font-heading: 'Momo Trust Display', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
 }
