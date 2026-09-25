@@ -1,7 +1,7 @@
 nav{
     display: flex;
     justify-content: center;
-    padding: 15px;
+    margin-top: 25px;
     gap: 10px;
 }
 
@@ -9,22 +9,22 @@ nav{
     display: flex;
     justify-content: space-between;
     gap: 8px;
-    background-color: whitesmoke;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
     padding: 5px;
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px 1px rgba(146, 146, 149, 0.5);
+    border-radius: 30px;
 }
 
 .nav-logo{
     width: 200px;
-    background-color: black;
-    border-radius: 25px;
+    background-color: rgb(90, 0, 90);
+    border-radius: 30px;
 }
 
 .nav-logo h1{
     padding: 10px 25px;
     text-align: center;
-    color: white;
+    color: var(--primary-text-dark);
     font-size: x-large;
 }
 
@@ -40,29 +40,31 @@ nav{
 
 .nav-links ul li{
     list-style: none;
-    padding: 14px 25px;
+    padding: 15px 25px;
     transition: 0.5s;
-    border-radius: 25px;
+    border-radius: 30px;
 }
 
 .nav-links ul li:hover{
-    background-color: black;
-    color: white;
+    background-color: var(--accent);
+    color: var(--primary-text-dark);
+    cursor: pointer;
 }
 
-.nav-links ul li a{
+.nav-links ul li a {
+    display: block;
     text-decoration: none;
-    color: black;
-    font-size: medium;
+    color: var(--primary-text-dark);
 }
 
-.nav-links ul li:hover a{
+/* .nav-links ul li:hover a{
     color: white;
-}
+} */
 
 .theme{
-    width: 57px;
+    width: 63px;
+    height: 63px;
     border-radius: 30px;
-    background-color: whitesmoke;
-    box-shadow: 2px 2px 5px 1px rgba(146, 146, 149, 0.5);
+    background-color: var(--surface);
+    border: 1px solid var(--border);
 }
