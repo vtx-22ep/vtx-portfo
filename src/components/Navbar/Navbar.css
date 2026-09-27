@@ -70,3 +70,9 @@ nav{
     background-color: var(--surface);
     border: 1px solid var(--border);
 }
+
+@media (max-width: 768px){
+    nav{
+        display: none;
+    }
+}

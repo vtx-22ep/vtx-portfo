@@ -1,4 +1,25 @@
+/*
+-- Fonts Used --
+For heading   : Momo Trust Display, sans-serif
+For Paragraph : Plus Jakarta Sans, sans-serif
+*/
 @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+  --background-color: #03191a;
+  --surface: #0B2B26;
+  --primary-text-dark: #DAF1DE;
+  --secondary-text-dark: #F5F7FA;
+  --accent: #163832;
+  --border: #235347;
+  --highlight: #00ff00;
+
+  --font-heading: 'Momo Trust Display', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+
+  --content-width: 1500px;
+  --content-padding: 5%;
+}
 
 * {
   box-sizing: border-box;
@@ -6,15 +27,8 @@
   padding: 0;
 }
 
-:root{
-  --background-color: #051F20;
-  --surface: #0B2B26;
-  --primary-text-dark: #DAF1DE;
-  --secondary-text-dark: #F5F7FA;
-  --accent: #163832;
-  --border: #235347;
-  --font-heading: 'Momo Trust Display', sans-serif;
-  --font-body: 'Plus Jakarta Sans', sans-serif;
+html{
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -26,4 +40,10 @@ body{
   background-color: var(--background-color);
   font-family: var(--font-body);
   color: var(--primary-text-dark);
+  min-width: 320px;
+}
+
+.container{
+  width: min(70%, var(--content-width));
+  margin: 0 auto;
 }
