@@ -72,7 +72,15 @@ nav{
 }
 
 @media (max-width: 768px){
-    nav{
+    .nav-bar{
+        gap: 0;
+    }
+    
+    .nav-logo{
+        width: 200px;
+    }
+    
+    .nav-links ul{
         display: none;
     }
 }

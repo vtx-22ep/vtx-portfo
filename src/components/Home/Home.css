@@ -88,6 +88,8 @@
     .row{
         flex-direction: column;
         text-align: center;
+        justify-content: flex-start;
+        min-height: auto;
     }
 
     .col1{
@@ -120,8 +122,8 @@
     }
 
     .col2 img{
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         margin: 20px 0;
     }
 }
