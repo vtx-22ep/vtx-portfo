@@ -64,14 +64,14 @@ nav{
 } */
 
 .theme{
-    width: 63px;
-    height: 63px;
-    border-radius: 30px;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
     background-color: var(--surface);
     border: 1px solid var(--border);
 }
 
-@media (max-width: 768px){
+@media (max-width: 991px){
     .nav-bar{
         gap: 0;
     }
