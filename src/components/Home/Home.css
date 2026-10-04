@@ -32,6 +32,7 @@
 .col1 p{
     font-size: medium;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .col1 p:nth-child(4){
