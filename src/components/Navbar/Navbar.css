@@ -13,8 +13,12 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.nav-logo img{
+/* .nav-logo img{
     width: clamp(150px, 25vw, 200px);
+} */
+
+.nav-logo h1{
+    font-size: clamp(1rem, 5vw, 1.6rem);
 }
 
 .nav-links{
