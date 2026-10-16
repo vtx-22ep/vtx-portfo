@@ -6,7 +6,7 @@ function Navbar() {
         <nav>
             <div className="nav-logo">
                 {/* <img src={logoBanner} alt="VTX-22EP" /> */}
-                <h1>vtx22ep.me</h1>
+                <h1>vtx<span>22</span>ep.me</h1>
             </div>
             <div className="nav-links">
                 <ul>

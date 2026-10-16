@@ -39,6 +39,11 @@ h1, h2, h3, h4, h5, h6{
   font-optical-sizing: auto;
 }
 
+p{
+  font-size: clamp(1rem, 1vw, 1.6rem);
+  margin-bottom: 20px;
+}
+
 body{
   background-color: var(--background-color);
   font-family: var(--font-body);
@@ -46,6 +51,13 @@ body{
 }
 
 .container{
-  width: min(70%, var(--content-width));
+  width: min(80%, var(--content-width));
+  margin: 0 auto;
+}
+
+.custom-line{
+  height: 1px;
+  background-color: var(--border);
+  width: 50%;
   margin: 0 auto;
 }
