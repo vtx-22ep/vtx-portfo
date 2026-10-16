@@ -1,13 +1,16 @@
 .about-me{
-    background-color: var(--accent);
+    background-color: var(--surface);
+    padding: 50px 0;
 }
 
-.about-content{
-    min-height: 100vh;
-}
 
 .about-content h1{
-    padding: 50px 0 20px 0;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.about-content h2{
+    padding-bottom: 20px;
     text-decoration: underline var(--primary-color);
 }
 
@@ -19,14 +22,28 @@
     padding-bottom: 20px;
 }
 
-hr{
-    height: 1px;
-    background-color: var(--border);
-    width: 100%;
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1,
+.col2{
+    width: 48%;
+    text-align: justify;
 }
 
 @media (max-width: 991px){
     .about-content p{
         text-align: justify;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .col1,
+    .col2{
+        width: 100%;
     }
 }

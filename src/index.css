@@ -6,11 +6,12 @@ For Paragraph : Plus Jakarta Sans, sans-serif
 @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 :root{
-  --primary-color: #FF3C00;
-  --background-color: #FEFEFE;
-  --primary-text: #231F20;
-  --accent: #F6F6F6;
-  --border: #B8B8B8;
+  --primary-color: #00FF00;
+  --bg-color: #020202;
+  --surface: #1A1A1A;
+  --primary-text: #FFFFFF;
+  --secondary-text: #888888;
+  --border: #323232;
 
   --font-heading: 'Momo Trust Display', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
@@ -31,21 +32,23 @@ html{
 
 html::selection{
   background-color: var(--primary-color);
-  color: var(--accent);
+  color: var(--surface);
 }
 
 h1, h2, h3, h4, h5, h6{
   font-family: var(--font-heading);
   font-optical-sizing: auto;
+  color: var(--primary-text);
 }
 
 p{
   font-size: clamp(1rem, 1vw, 1.6rem);
   margin-bottom: 20px;
+  color: var(--secondary-text);
 }
 
 body{
-  background-color: var(--background-color);
+  background-color: var(--bg-color);
   font-family: var(--font-body);
   min-width: 320px;
 }
@@ -59,5 +62,5 @@ body{
   height: 1px;
   background-color: var(--border);
   width: 50%;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;
 }

@@ -1,5 +1,5 @@
 import './Home.css'
-import myImg from '../../assets/images/Profile Pic/myProfile.png'
+import myImg from '../../assets/images/Profile Pic/myProfile_B&W3.png'
 
 function Home(){
     return(
