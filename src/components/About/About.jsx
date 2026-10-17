@@ -68,7 +68,7 @@ function About(){
                             <p>
                                 After my first introduction to computers by my uncle, I didn't get another opportunity to use one 
                                 for quite some time. I still remember how fascinated I was whenever I saw someone using a computer 
-                                or laptop. I would look at them in amazement, thinking, <b>"<i>Wow, he's using a computer!</i>"</b> 
+                                or laptop. I would look at them in amazement, thinking, <b>"Wow, he's using a computer!"</b> 
                                 Even though I was deeply curious about computers, I could only admire them from a distance because 
                                 I didn't have access to one.
                             </p>
@@ -135,6 +135,8 @@ function About(){
                                 2022 marks the year I took my first major step toward a career in computing by joining 
                                 Diploma in Computer Engineering.
                             </p>
+                        </div>
+                        <div className="col2">
                             <p>
                                 <b>E <span>-</span> Evolving</b><br />
                                 A reminder to become better than I was yesterday — continuously learning, improving, and evolving.
@@ -142,6 +144,10 @@ function About(){
                             <p>
                                 <b>P <span>-</span> Productive</b><br />
                                 A reminder to turn knowledge and time into meaningful work.
+                            </p>
+                            <p>
+                                <b>VTX<span>-</span>22EP</b><br />
+                                Vignesh Thilagaraj, always Exploring the Unknown, took his first step toward his career in 2022, constantly Evolving, and striving to remain Productive every day.
                             </p>
                         </div>
                     </div>
