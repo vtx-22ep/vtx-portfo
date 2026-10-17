@@ -33,6 +33,14 @@
     text-align: justify;
 }
 
+.vtx-meaning b{
+    color: var(--primary-text);
+}
+
+.vtx-meaning b span{
+    color: var(--primary-color);
+}
+
 @media (max-width: 991px){
     .about-content p{
         text-align: justify;

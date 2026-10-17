@@ -98,6 +98,53 @@ function About(){
                         </div>
                     </div>
 
+                    <div className="custom-line"></div>
+
+                    <h2>What is VTX-22EP?</h2>
+                    <h3>VTX-22EP isn't just a username. It represents the way I see myself.</h3>
+                    <p>
+                        During my 10th standard, a conversation with my friend <b>Sriram</b> sparked my curiosity about astrophysics. 
+                        He asked me a question: <b>"How can stars keep burning in space without oxygen?"</b> At that time, we both 
+                        believed that stars burned like ordinary fires, and the question made us wonder how it was possible. 
+                        Although our assumption was scientifically incorrect, that very question sparked my curiosity about 
+                        space and the universe. Later, I learned that stars don't burn through ordinary combustion; they 
+                        produce energy through nuclear fusion. <b>What began as a misconception became the starting point of my 
+                        interest in astrophysics.</b>
+                    </p>
+                    <p>
+                        As I explored astrophysics further, I became fascinated by how researchers use alphanumeric 
+                        designations to identify celestial objects. This inspired me to create an identity of my own using 
+                        letters and numbers — something short, unique, and meaningful, reflecting my curiosity and 
+                        personality. That idea eventually led to the creation of <b>VTX-22EP.</b>
+                    </p>
+
+                    <div className="row vtx-meaning">
+                        <div className="col1">
+                            <p>
+                                <b>VT <span>-</span> Vignesh Thilagaraj</b><br />
+                                It is the first letter of my first and last name.
+                            </p>
+                            <p>
+                                <b>X <span>-</span> Exploring the Unknown</b><br />
+                                I have always been interested in multiple fields and curious about things I don't yet 
+                                understand. X represents that curiosity and my willingness to explore beyond a single 
+                                discipline.
+                            </p>
+                            <p>
+                                <b>22 <span>-</span> The Beginning</b><br />
+                                2022 marks the year I took my first major step toward a career in computing by joining 
+                                Diploma in Computer Engineering.
+                            </p>
+                            <p>
+                                <b>E <span>-</span> Evolving</b><br />
+                                A reminder to become better than I was yesterday — continuously learning, improving, and evolving.
+                            </p>
+                            <p>
+                                <b>P <span>-</span> Productive</b><br />
+                                A reminder to turn knowledge and time into meaningful work.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
