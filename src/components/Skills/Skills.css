@@ -6,3 +6,63 @@
     text-align: center;
     padding: 0 0 20px 0;
 }
+
+.skills-content h1{
+    margin-bottom: 20px;
+}
+
+.skill-row{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills-card{
+    width: 32%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 20px;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.skills-card:hover{
+    border: 1px solid var(--primary-color);
+}
+
+.skills-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-details{
+    text-align: left;
+}
+
+.skills-details h3{
+    font-size: clamp(0.8rem, 1vw, 1rem);
+}
+
+.skills-details p{
+    margin-bottom: 0;
+    font-size: clamp(0.8rem, 1vw, 1rem);
+}
+
+.icon{
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px){
+    .skill-row{
+        flex-direction: column;
+    }
+
+    .skills-card{
+        width: 100%;
+    }
+}
