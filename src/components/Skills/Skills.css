@@ -34,11 +34,6 @@
     border: 1px solid var(--primary-color);
 }
 
-.skills-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .skills-details{
     text-align: left;
