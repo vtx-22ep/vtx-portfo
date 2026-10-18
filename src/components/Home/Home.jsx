@@ -1,7 +1,7 @@
 import './Home.css'
 import myImg from '../../assets/images/Profile Pic/myProfile_B&W3.png'
 
-function Home(){
+const Home = () => {
     return(
         <div className="container">
             <div className="greetings">

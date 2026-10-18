@@ -1,11 +1,9 @@
 import './Navbar.css'
-import logoBanner from '../../assets/images/vtx/vtx-logo_banner.png'
 
-function Navbar() {
+const Navbar = () => {
     return (
         <nav>
             <div className="nav-logo">
-                {/* <img src={logoBanner} alt="VTX-22EP" /> */}
                 <h1><span>vtx</span>-22ep</h1>
             </div>
             <div className="nav-links">
