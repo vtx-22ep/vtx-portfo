@@ -1,4 +1,4 @@
-import { Braces, Terminal, PanelsTopLeft, Palette, Network } from 'lucide-react'
+import { Braces, Terminal, PanelsTopLeft, Palette, Network, GitBranch } from 'lucide-react'
 import './Skills.css'
 import SkillsCard from './SkillsCard'
 
@@ -26,6 +26,12 @@ const Skills = () => {
                             title = "Web Dev"
                             skills = "HTML - CSS - JS - React - Django"
                             description = "Building & styling websites."
+                        />
+                        <SkillsCard 
+                            icon = { GitBranch }
+                            title = "Version Control"
+                            skills = "Git - GitHub"
+                            description = "Learning version control, tracking code changes, and managing repositories on GitHub."
                         />
                         <SkillsCard 
                             icon = { Network }
