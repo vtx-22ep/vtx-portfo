@@ -39,11 +39,12 @@ h1, h2, h3, h4, h5, h6{
   font-family: var(--font-heading);
   font-optical-sizing: auto;
   color: var(--primary-text);
+  padding-bottom: 20px;
 }
 
 p{
   font-size: clamp(1rem, 1vw, 1.6rem);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: var(--secondary-text);
 }
 
@@ -63,4 +64,25 @@ body{
   background-color: var(--border);
   width: 50%;
   margin: 0 auto 40px auto;
+}
+
+.cards-row{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-details h3,
+.card-details p{
+  font-size: clamp(0.8rem, 1vw, 1rem);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.page{
+  padding: 50px 0;
+}
+
+.page-title{
+  text-align: center;
 }
