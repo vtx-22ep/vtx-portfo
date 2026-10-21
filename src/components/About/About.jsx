@@ -2,10 +2,10 @@ import './About.css'
 
 const About = () => {
     return(
-        <section className="about-me">
+        <section className="about-me page">
             <div className="container">
                 <div className="about-content">
-                    <h1>About me</h1>
+                    <h1 className="page-title">About me</h1>
 
                     <div className="row">
                         <div className="col1">

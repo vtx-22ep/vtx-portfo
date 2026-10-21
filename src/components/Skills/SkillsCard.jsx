@@ -6,7 +6,7 @@ const SkillsCard = ({ icon: Icon, title, skills, description }) => {
             <div className="skill-icon">
                 <Icon className="icon" />
             </div>
-            <div className="skills-details">
+            <div className="skills-details card-details">
                 <h3>{title}</h3>
                 <p>{skills}</p>
                 <p>{description}</p>

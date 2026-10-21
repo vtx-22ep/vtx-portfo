@@ -18,6 +18,7 @@
 }
 
 .home-content h1{
+    padding-bottom: 0;
     margin-bottom: 10px;
     font-size: clamp(0.8rem, 5vw, 3rem);
 }
@@ -25,6 +26,11 @@
 .home-content h1 span{
     background-color: var(--primary-color);
     color: var(--surface);
+}
+
+.home-content h4,
+.greetings h4{
+    padding-bottom: 0;
 }
 
 .home-content h4 span{

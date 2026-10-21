@@ -4,11 +4,11 @@ import SkillsCard from './SkillsCard'
 
 const Skills = () => {
     return(
-        <section className="skills">
+        <section className="skills page">
             <div className="container">
                 <div className="skills-content">
-                    <h1>Skills</h1>
-                    <div className="skill-row">
+                    <h1 className="page-title">Skills</h1>
+                    <div className="cards-row">
                         <SkillsCard 
                             icon = { Braces }
                             title = "Programming Languages"
