@@ -41,6 +41,7 @@ const skillsData = [
         skills: "Git - GitHub",
         description: "Learning version control, tracking code changes, and managing repositories on GitHub."
     },
+    
     {
         id: 5,
         icon: Network,
