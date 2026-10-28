@@ -72,6 +72,7 @@ body{
   flex-wrap: wrap;
 }
 
+.card-details h2,
 .card-details h3,
 .card-details p{
   font-size: clamp(0.8rem, 1vw, 1rem);
