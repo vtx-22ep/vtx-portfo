@@ -1,13 +1,13 @@
 import './Projects.css'
 
-const ProjectsCard = ({ img: Img, title, description, techUsed }) => {
+const ProjectsCard = ({ img, title, description, techUsed }) => {
     return(
         <article className="project-card">
             <div className="project-img">
-                {/* <Img /> */}
+                <img src={ img } alt="#" />
             </div>
             <div className="project-details card-details">
-                <h3>{title}</h3>
+                <h2>{title}</h2>
                 <p>{description}</p>
                 <p>Tech used: {techUsed}</p>
             </div>
